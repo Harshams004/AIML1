@@ -1,0 +1,15 @@
+import  numpy as np
+
+arr=np.array([[1,2,3],[1,2,3]])
+print("dimension =",arr.ndim)
+print("shape of the array",arr.shape)
+print("the datatype of array",arr.dtype)
+print("size of the array",arr.size)
+print("transpose of array=",arr.T)
+print("sum of array=",arr.sum())
+print("sum of matrix in axis 1=",arr.sum(axis=1))
+print("maximum of array=",arr.max())
+print("minimum of array=",arr.min())
+print("maximum of matrix in axis 1=",arr.max(axis=1))
+print("minimum of matrix in axis 1=",arr.min(axis=1))
+print(arr.cumsum())
